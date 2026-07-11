@@ -1,5 +1,13 @@
 export * from './types';
 export { PluginManager } from './PluginManager/manager';
 export { groqPlugin } from './AIProviders/groq-plugin';
+export { openaiPlugin } from './AIProviders/openai-plugin';
 export { githubPlugin } from './GitHub/github-plugin';
+export { supabasePlugin } from './Supabase/supabase-plugin';
+export { emailPlugin } from './Email/email-plugin';
+export { googlePlugin } from './Google/google-plugin';
+export { notionPlugin } from './Notion/notion-plugin';
+export { slackPlugin } from './Slack/slack-plugin';
+export { firebasePlugin } from './Firebase/firebase-plugin';
 export { base44Plugin } from './Base44/base44-plugin';
+export { customPluginTemplate } from './Custom/custom-plugin-template';
